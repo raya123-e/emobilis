@@ -16,5 +16,12 @@ urlpatterns = [
        path('trainers/', views.trainers, name='trainers'),
        path('starter/', views.starter_page, name='starter'),
        path('show/', views.starter_page, name='show'),
+#mpesa API
+    path('pay/', views.pay, name='pay'),
+    path('stk/', views.stk, name='stk'),
+    path('token/', views.token, name='token'),
+    path('transactions/', views.transactions_list, name='transactions'),
 
 ]
+
+

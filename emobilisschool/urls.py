@@ -15,7 +15,7 @@ urlpatterns = [
        path('pricing/', views.pricing, name='pricing'),
        path('trainers/', views.trainers, name='trainers'),
        path('starter/', views.starter_page, name='starter'),
-       path('show/', views.starter_page, name='show'),
+       path('show/', views.show, name='show'),
 #mpesa API
     path('pay/', views.pay, name='pay'),
     path('stk/', views.stk, name='stk'),
